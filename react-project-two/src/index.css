@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: 'times new roman', serif;
+}
+
+body{
+  height: 100vh; 
+  display: flex; 
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  background-color: #584f4f; 
+  color: #fff;
+  font-size: 2rem;
+}
