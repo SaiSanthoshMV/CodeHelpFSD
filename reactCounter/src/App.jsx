@@ -1,14 +1,12 @@
 // counter
 import { useState } from 'react'
+import Counter from './components/Counter'
 
-function App() {
-  const [count, setCount] = useState(0);
-
+function App(){
   return (
-    <>
-      <p> Count is {count}</p>
-      <button onClick={() => setCount(count+1)}>click</button>
-    </>
+    <div>
+      <Counter/>
+    </div>
   )
 }
 
